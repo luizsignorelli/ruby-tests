@@ -1,0 +1,3 @@
+My idea was, to find if a class is a subclass of DataModel I need to test it against all classes in the $LOAD_PATH.
+
+Once I got my hands on such a list via Object.constants, the rest was straightforward.
